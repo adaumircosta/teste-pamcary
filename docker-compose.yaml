@@ -1,0 +1,8 @@
+version: '3.0'
+services:
+
+ backend:
+   image: registry.gitlab.com/adaumir-testes/pamcary/ws-pamcary-client
+   container_name: ws-pamcary-client
+   ports:
+     - 8080:8085
